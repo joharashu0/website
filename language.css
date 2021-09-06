@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(138, 189, 189);
+}
+.navbar{
+    margin-top: 15px;
+}
+.list{
+    text-decoration: none;
+    color: orangered;
+    font-weight: 600;
+    font-size: larger;
+}
+ul{
+    list-style-type: none;
+}
+.nav{
+    background-color: palegoldenrod;
+    min-width: 100%;
+    position: fixed;
+}
+.logo{
+    max-width: 30%;
+}
+#search{
+    margin-left: 50%;
+    margin-top: -18%;
+}
+.searchInput{
+    width: 80%;
+    height: 2.5em;
+}
+.searchButton{
+    height: 2.5em;
+    width: 6em;
+    background-color: greenyellow;
+}
+.searchButton:hover{
+    background-color: rgb(22, 22, 226);
+    color: Red;
+}
+hr{
+    margin: 15px;
+}
+.details{
+    margin: 25px;
+}
+#cImg{
+    width: 300px;
+}
+.bottom{
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+span{
+    color: red;
+}
+@media (max-width: 800px){
+    body{
+        background-color: whitesmoke;
+    }
+}
